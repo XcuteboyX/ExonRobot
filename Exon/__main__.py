@@ -142,7 +142,7 @@ def send_help(chat_id, text, keyboard=None):
 
     if not keyboard:
         kb = paginate_modules(0, HELPABLE, "help")
-        # kb.append([InlineKeyboardButton(text='sᴜᴘᴘᴏʀᴛ', url='https://t.me/AbishnoiMF'),
+        # kb.append([InlineKeyboardButton(text='sᴜᴘᴘᴏʀᴛ', url='https://t.me/X_TEAM_IMMORTALS_X'),
         #           InlineKeyboardButton(text='ʙᴀᴄᴋ', callback_data='start_back'),
         #           InlineKeyboardButton(text="ᴛʀʏ ɪɴʟɪɴᴇ", switch_inline_query_current_chat="")])
         keyboard = InlineKeyboardMarkup(kb)
@@ -360,7 +360,7 @@ def help_button(update: Update, context: CallbackContext):
             help_buttons.append(
                 [
                     InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="help_back"),
-                    InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", callback_data="ABG_support"),
+                    InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", callback_data="X_TEAM_IMMORTALS_X"),
                 ]
             )
             query.message.edit_text(
@@ -373,7 +373,7 @@ def help_button(update: Update, context: CallbackContext):
         elif prev_match:
             curr_page = int(prev_match.group(1))
             kb = paginate_modules(curr_page - 1, HELPABLE, "help")
-            # kb.append([InlineKeyboardButton(text='Support', url='https://t.me/Exon'),
+            # kb.append([InlineKeyboardButton(text='Support', url='https://t.me/its_cute_babu'),
             #           InlineKeyboardButton(text='Back', callback_data='start_back'),
             #           InlineKeyboardButton(text="Try inline", switch_inline_query_current_chat="")])
             query.message.edit_text(
@@ -385,7 +385,7 @@ def help_button(update: Update, context: CallbackContext):
         elif next_match:
             next_page = int(next_match.group(1))
             kb = paginate_modules(next_page + 1, HELPABLE, "help")
-            # kb.append([InlineKeyboardButton(text='Support', url='https://t.me/Exon'),
+            # kb.append([InlineKeyboardButton(text='Support', url='https://t.me/its_cute_babu'),
             #           InlineKeyboardButton(text='Back', callback_data='start_back'),
             #           InlineKeyboardButton(text="Try inline", switch_inline_query_current_chat="")])
             query.message.edit_text(
@@ -396,7 +396,7 @@ def help_button(update: Update, context: CallbackContext):
 
         elif back_match:
             kb = paginate_modules(0, HELPABLE, "help")
-            # kb.append([InlineKeyboardButton(text='Support', url='https://t.me/Exon'),
+            # kb.append([InlineKeyboardButton(text='Support', url='https://t.me/its_cute_babu),
             #           InlineKeyboardButton(text='Back', callback_data='start_back'),
             #           InlineKeyboardButton(text="Try inline", switch_inline_query_current_chat="")])
             query.message.edit_text(
@@ -488,7 +488,7 @@ def get_help(update: Update, context: CallbackContext):
             help_buttons.append(
                 [
                     InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="help_back"),
-                    InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", callback_data="ABG_support"),
+                    InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", callback_data="X_TEAM_IMMORTALS_X"),
                 ]
             )
             send_help(
