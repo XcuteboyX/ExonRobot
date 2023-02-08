@@ -2,7 +2,7 @@
 {
     "name": "ᴇxᴏɴᴏʙᴏᴛ",
     "description": "Telegram Group Management Bot Written In Python Using python-telegram-bot.",
-    "repository": "https://github.com/Abishnoi69/ExonRobot",
+    "repository": "https://github.com/XcuteboyX/ExonRobot",
     "logo": "https://te.legra.ph/file/b0e09aabe796209f01d3d.jpg",
     "keywords": [
     "python3",
@@ -35,27 +35,27 @@
       "API_ID": {
          "description": "ɢᴇᴛ ᴛʜɪs ᴠᴀʟᴜᴇ ғʀᴏᴍ my.telegram.org/apps.",
          "required": true,
-         "value": ""
+         "value": "20256702"
       },
       "API_HASH": {
          "description": "ɢᴇᴛ ᴛʜɪs ᴠᴀʟᴜᴇ ғʀᴏᴍ my.telegram.org/apps.",
          "required": true,
-         "value": ""
+         "value": "c81d1c06212c1c9624f44e159c651a5c"
       },
       "OWNER_ID": {
          "description": "ʏᴏᴜʀ ᴜsᴇʀ ID ᴀs ᴀɴ ɪɴᴛᴇɢᴇʀ.",
          "required": true,
-         "value": "5938660179"
+         "value": "5846541835"
       },
       "DEV_USERS": {
          "description": "ᴅᴇᴠs ᴜsᴇʀ ID ᴀs ᴀɴ ɪɴᴛᴇɢᴇʀ.",
          "required": true,
-         "value": "5938660179"
+         "value": "5846541835"
       },
       "OWNER_USERNAME": {
          "description": "ʏᴏᴜʀ ᴛɢ ᴜsᴇʀɴᴀᴍᴇ",
          "required": true,
-         "value": "Abishnoi1M"
+         "value": "its_cute_boy"
       },
       "LOG_GROUP_ID": {
          "description": "ᴇᴠᴇɴᴛ ʟᴏɢs ᴄʜᴀɴɴᴇʟ  ᴛᴏ ɴᴏᴛᴇ ᴅᴏᴡɴ ɪᴍᴘᴏʀᴛᴀɴᴛ ʙᴏᴛ ʟᴇᴠᴇʟ ᴇᴠᴇɴᴛs, ᴇx: '-10023456'",
