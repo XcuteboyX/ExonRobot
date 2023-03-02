@@ -77,7 +77,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="🏡 ᴀʙᴏᴜᴛ 🏡", callback_data="ABG_"),
-        InlineKeyboardButton(text="🥀 ᴅᴇᴠᴇʟᴏᴘᴇʀ 🥀", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text="🥀 ᴀɴᴜᴊ 🥀", url=f"tg://user?id={OWNER_ID}"),
     ],
 ]
 
@@ -231,7 +231,7 @@ def start(update: Update, context: CallbackContext):  # sourcery no-metrics
                         InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="help_back"),
                         InlineKeyboardButton(
                             text="sᴜᴘᴘᴏʀᴛ",
-                            callback_data="ABG_support",
+                            callback_data="the_update_silencer",
                         ),
                     ]
                 )
